@@ -10,8 +10,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1782088532"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://shubhashankar246:nEWTylzLZpiuysRh@cluster0.kpecd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "shubhashankar246")
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002343164262"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002327893137"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002448726887"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002343164262"))
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600"))  # auto delete in seconds
 PORT = os.environ.get("PORT", "8080")
@@ -29,7 +29,7 @@ DISABLE_CHANNEL_BUTTON = True if os.environ.get('DISABLE_CHANNEL_BUTTON', "True"
 BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 USER_REPLY_TEXT = "❌Don't Send Me Messages Directly I'm Only File Share Bot !"
 START_MSG = os.environ.get("START_MESSAGE", "Hello {mention}\n\nI Can Store Private Files In Specified Channel And Other Users Can Access It From Special Link.")
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {-100234316426}\n\n<b>You Need To Join In My Channel/Group To Use Me\n\nKindly Please Join Channel</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\n<b>You Need To Join In My Channel/Group To Use Me\n\nKindly Please Join Channel</b>")
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
