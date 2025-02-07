@@ -12,7 +12,7 @@ DB_URL = os.environ.get("mongodb+srv://shubhashankar246:nEWTylzLZpiuysRh@cluster
 DB_NAME = os.environ.get("shubhashankar246")
 
 CHANNEL_ID = int(os.environ.get("-1002448726887"))
-FORCE_SUB_CHANNEL = int(os.environ.get("-1002268761887aa"))
+FORCE_SUB_CHANNEL = int(os.environ.get("-1002268761887"))
 
 FILE_AUTO_DELETE = int(os.environ.get("FILE_AUTO_DELETE", "600"))  # auto delete in seconds
 PORT = os.environ.get("PORT", "8080")
