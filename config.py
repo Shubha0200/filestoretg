@@ -10,7 +10,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1782088532"))
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://shubhashankar246:nEWTylzLZpiuysRh@cluster0.kpecd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "shubhashankar246")
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002448726887"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002343164262"))
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002327893137"))
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "600"))  # auto delete in seconds
