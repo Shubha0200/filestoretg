@@ -3,16 +3,16 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Fetch environment variables (remove sensitive data from default values)
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
+BOT_TOKEN = os.environ.get("7474955516:AAG6hNIVmwFYtZwi1WW0H3d5GX7Ihh4gQbQ")
+API_ID = int(os.environ.get("21459238"))
+API_HASH = os.environ.get("0cef1924d139587654bc18402d2b512d")
 
-OWNER_ID = int(os.environ.get("OWNER_ID"))
-DB_URL = os.environ.get("DB_URL")
-DB_NAME = os.environ.get("DB_NAME")
+OWNER_ID = int(os.environ.get("1782088532"))
+DB_URL = os.environ.get("mongodb+srv://shubhashankar246:nEWTylzLZpiuysRh@cluster0.kpecd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("shubhashankar246")
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL"))
+CHANNEL_ID = int(os.environ.get("1002448726887"))
+FORCE_SUB_CHANNEL = int(os.environ.get("-1002268761887aa"))
 
 FILE_AUTO_DELETE = int(os.environ.get("FILE_AUTO_DELETE", "600"))  # auto delete in seconds
 PORT = os.environ.get("PORT", "8080")
